@@ -17,7 +17,7 @@ User can *create* a book by 'POST'ing to a http API using a CLI client:
 
 The client uses the standard output to inform the user about the operation completion and/or errors.
 
-## Search book by title anmd author
+## Search book by title and author
 
 User can *search* the online catalogue by 'GET'ing using an HTTP Api
 
@@ -32,8 +32,8 @@ User can book an item using the CLI
 
 The client warns the user if the book is not available or if it has already been booked by the calling user.
 
-1) free -> book it
-2) someone else has booked it
-3) the calling user has already booked it
-4) the book is not found
+-  free -> book it
+-  someone else has booked it
+-  the calling user has already booked it
+-  the book is not found
   
